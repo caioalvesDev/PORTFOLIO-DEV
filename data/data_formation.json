@@ -1,0 +1,53 @@
+[
+
+    {
+        "name": "B7WEB",
+        "title": "Programar Full Stack Do ZERO",
+        "tagcolor": "black",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corrupti magni corporis repudiandae voluptatibus, omnis nisi fugit tenetur dignissimos mollitia reiciendis aliquam quasi ullam, delectus officiis cupiditate provident dolores saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur deserunt unde quas minima voluptatibus! Neque, nobis culpa odit provident modi doloremque exercitationem pariatur ipsum ut ea, sit corporis earum eaque?"
+    },
+    {
+        "name": "One Bit Code",
+        "title": "Programador Full Stack JavaScript Profissional",
+        "tagcolor": "danger",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corrupti magni corporis repudiandae voluptatibus, omnis nisi fugit tenetur dignissimos mollitia reiciendis aliquam quasi ullam, delectus officiis cupiditate provident dolores saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur deserunt unde quas minima voluptatibus! Neque, nobis culpa odit provident modi doloremque exercitationem pariatur ipsum ut ea, sit corporis earum eaque?"
+    },
+    {
+        "name": "UDEMY",
+        "title": "Formação Node.js",
+        "tagcolor": "info",
+        "description" : "A Formação Node.js, é um curso completo que vai do básico do Node.js, se aprofundado bastante no desenvolvimento web com Javascript para o back-end, com bibliotecas como Express.js, e bancos de dados como MongoDB e MySQL."
+    },
+    {
+        "name": "UDEMY",
+        "title": "Desenvolvimento Web Avançado com PHP, Laravel e Vue.JS",
+        "tagcolor": "info",
+        "description" : "Aplicações web avançadas utilizando o framework Laravel e a linguagem de programação PHP. De bônus, descubra como combinar o framework Laravel com o framework Vue.JS para criação de aplicações web incríveis."
+    },
+    {
+        "name": "UDEMY",
+        "title": "React Js do zero ao avançado na pratica",
+        "tagcolor": "info",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corrupti magni corporis repudiandae voluptatibus, omnis nisi fugit tenetur dignissimos mollitia reiciendis aliquam quasi ullam, delectus officiis cupiditate provident dolores saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur deserunt unde quas minima voluptatibus! Neque, nobis culpa odit provident modi doloremque exercitationem pariatur ipsum ut ea, sit corporis earum eaque?"
+    },
+    {
+        "name": "UDEMY",
+        "title": "Curso Completo de PHP 7",
+        "tagcolor": "info",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corrupti magni corporis repudiandae voluptatibus, omnis nisi fugit tenetur dignissimos mollitia reiciendis aliquam quasi ullam, delectus officiis cupiditate provident dolores saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur deserunt unde quas minima voluptatibus! Neque, nobis culpa odit provident modi doloremque exercitationem pariatur ipsum ut ea, sit corporis earum eaque?"
+    },
+    {
+        "name": "UDEMY",
+        "title": "Desenvolvimento Web Completo - 20 cursos + 20 projetos",
+        "tagcolor": "info",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corrupti magni corporis repudiandae voluptatibus, omnis nisi fugit tenetur dignissimos mollitia reiciendis aliquam quasi ullam, delectus officiis cupiditate provident dolores saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur deserunt unde quas minima voluptatibus! Neque, nobis culpa odit provident modi doloremque exercitationem pariatur ipsum ut ea, sit corporis earum eaque?"
+    },
+    {
+        "name": "UDEMY",
+        "title": "Desenvolvimento Web Avançado com Vue (v2 e v3) e Vuex",
+        "tagcolor": "info",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corrupti magni corporis repudiandae voluptatibus, omnis nisi fugit tenetur dignissimos mollitia reiciendis aliquam quasi ullam, delectus officiis cupiditate provident dolores saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur deserunt unde quas minima voluptatibus! Neque, nobis culpa odit provident modi doloremque exercitationem pariatur ipsum ut ea, sit corporis earum eaque?"
+    }
+
+
+]

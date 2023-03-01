@@ -1,0 +1,38 @@
+[
+
+    {
+        "name": "Desenvolvedor Pleno Full-Stack",
+        "taginfo": "Empresa: Planium/Bitix",
+        "imgsrc":"src\\assets\\img\\logo-Planium-10.png",
+        "text":"Tecnoligias/serviços utilizadas:",
+        "stacks": [
+            "HTML/CSS",
+            "ANGULAR",
+            "JAVASCRIPT",
+            "PHP",
+            "SQL",
+            "AWS",
+            "HEIDISQL"
+        ],
+        "descriptionp1": "Desenvolvedor Fullstack, Atualmente trabalho na PLANIUM uma empresa no ramo de seguros, especializada em Planos de saúde, Seguros saúde, Beneficios, INSURETECH e FINTECH. Desenvolvo e realizo manutenções na plataforma Trabalho em equipe, facilidade de aprendizado e comunicação são pontos chave.",
+        "descriptionp2": ""
+        
+    },
+    {
+        "name": "Nil Despachante",
+        "taginfo": "Empresa: Planium/Bitix",
+        "imgsrc":"src\\assets\\img\\despachante-logo.jpg",
+        "text":"Este projeto foi desenvolvido utilizando as tecnoligias:",
+        "stacks": [
+            "HTML/CSS",
+            "BOOTSTRAP",
+            "JAVASCRIPT",
+            "PHP",
+            "PHP MAILER"  
+        ],
+        "descriptionp1": "Nil Despachante, uma empresa do ramo veicular que atua a mais de 10 anos no mercado de documentação veícular junto ao DETRAN.",
+        "descriptionp2": "Este projeto foi meu primeiro projeto freelancer, desenvolvido com intuito de divulgar o serviço e facilitar a comunicação com os clientes."
+    }
+
+]
+
