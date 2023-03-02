@@ -39,7 +39,7 @@ onMounted( async () => {
     <div class="card">
         <header class="card-header">
             <p class="card-header-title">
-                &lt; Formações />
+                &lt; Formações /&gt;
             </p>
         </header>
         <div class="card-content">

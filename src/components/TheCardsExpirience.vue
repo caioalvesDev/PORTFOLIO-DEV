@@ -21,7 +21,7 @@ onMounted( async () => {
     <div class="card">
         <header class="card-header">
             <p class="card-header-title">
-                &lt; Experiencias />
+                &lt; Experiencias /&gt;
             </p>
 
         </header>

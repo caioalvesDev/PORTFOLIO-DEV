@@ -25,7 +25,7 @@ defineProps({
             <div id="navbarBasicExample" class="navbar-menu is-active">
                 <div  class="navbar-start">
                     <a  v-for="routeParam in routesParams" :key="routesParams.name" class="navbar-item is-text-black">
-                        <RouterLink :to="routeParam.path"> &lt;{{ routeParam.route  }}/></RouterLink>          
+                        <RouterLink :to="routeParam.path"> &lt; {{ routeParam.route  }} /&gt;</RouterLink>          
                     </a>
                 </div>
             </div>

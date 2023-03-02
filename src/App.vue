@@ -3,6 +3,7 @@ import Navbar from './components/TheNavbar.vue';
 import { onMounted } from 'vue';
 
 import { ref, reactive } from 'vue'
+import TheFooter from './components/TheFooter.vue';
 
 const routesParams = reactive([
   {'route': 'Home', 'path': '/'},
@@ -23,4 +24,6 @@ const routesParams = reactive([
   </header>
 
   <RouterView />
+
+  <!-- <TheFooter/> -->
 </template>

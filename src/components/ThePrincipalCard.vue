@@ -10,7 +10,7 @@
                                 <div class="media">
                                     <div class="media-content">
                                         <p class="title is-4">
-                                            &lt; Caio Alves/>
+                                            &lt; Caio Alves /&gt;
                                         </p>
                                         <span class="tag is-dark is-medium mr-1">Full Stack Developer</span>
                                         <span class="tag is-medium is-link mt-2 mr-1" >PHP</span>
@@ -49,7 +49,7 @@
                                     <div class="content has-text-centered">
                                         <a href="src\assets\file\Currículo-caio-alves.pdf" target="_blank"
                                             download="curriculo-caio"><span class="tag is-dark is-medium">
-                                                &lt;Baixar Curriculo/>
+                                                &lt; Baixar Curriculo /&gt;
                                             </span></a>
                                     </div>
                                 </div>

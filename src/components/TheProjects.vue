@@ -29,7 +29,7 @@ onMounted( async () => {
                             <section class="hero is-dark">
                                 <div class="hero-body">
                                     <p class="title  has-text-centered">
-                                        &lt; Projetos />
+                                        &lt; Projetos /&gt;
                                     </p>
                                     <!-- <p class="subtitle">
                                         Galeria de Projetos
@@ -44,7 +44,7 @@ onMounted( async () => {
                             <div class="card ">
                                 <header class="card-header ">
                                     <p class="card-header-title ">
-                                        &lt;JavaScript: [ NODEJS, REACT, VUEJS ] />
+                                        &lt; JavaScript: [ NODEJS, REACT, VUEJS ] /&gt;
                                     </p>
                                 </header>
                                 <div class="card-content">
@@ -73,7 +73,7 @@ onMounted( async () => {
                             <div class="card">
                                 <header class="card-header ">
                                     <p class="card-header-title">
-                                        &lt;PHP=> [ LARAVEL ] />
+                                        &lt; PHP=&gt [ LARAVEL ] /&gt;
                                     </p>
                                 </header>
                                 <div class="card-content">

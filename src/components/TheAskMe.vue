@@ -2,7 +2,7 @@
     <div class="card">
         <header class="card-header">
             <p class="card-header-title">
-                &lt;Sobre_Mim/>
+                &lt; Sobre_Mim /&gt;
             </p>
 
         </header>

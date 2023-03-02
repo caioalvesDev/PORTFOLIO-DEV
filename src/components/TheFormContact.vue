@@ -2,7 +2,7 @@
     <div class="card">
         <header class="card-header">
             <p class="card-header-title">
-                &lt; Contato />
+                &lt; Contato /&gt;
             </p>
         </header>
         <div class="card-content">
