@@ -12,7 +12,7 @@ onMounted( async () => {
     try {
         const response = await axios.get('https://my-json-server.typicode.com/caioalvesDev/backendPortfolio/projects');
         const data = await response.data
-        path.value  = 'https://github.com/caioalvesDev/Portfolio-dev/blob/6ad1ed39691c4db8aa4ccc7a98be79e49c686c63/src/assets/img/'
+        path.value  = 'https://raw.githubusercontent.com/caioalvesDev/Portfolio-dev/6ad1ed39691c4db8aa4ccc7a98be79e49c686c63/src/assets/img/'
         getProjects.value = data
         
 
@@ -60,7 +60,7 @@ onMounted( async () => {
                                         <div v-for="getProjectjs in getProjects.javascript">
                                             <TheProject
                                             :name="getProjectjs.name"
-                                            :imgsrc="getProjectjs.imgsrc"
+                                            :imgsrc="path+getProjectjs.imgsrc"
                                             :stacks="getProjectjs.stacks"
                                             :description="getProjectjs.description"
                                             :linkrepositorie="getProjectjs.linkrepositorie"

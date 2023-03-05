@@ -6,12 +6,14 @@ import TheCardExpirience from './TheCardExpirience.vue'
 import axios from 'axios';
 
 const getExperiences = ref([])
+const path = ref()
 
 onMounted( async () => {
 
     try {
         const response = await axios.get('https://my-json-server.typicode.com/caioalvesDev/backendPortfolio/experiences');
         const data = await response.data
+        path.value  = 'https://raw.githubusercontent.com/caioalvesDev/Portfolio-dev/6ad1ed39691c4db8aa4ccc7a98be79e49c686c63/src/assets/img/'
         getExperiences.value = data
 
     } catch (error) {
@@ -41,7 +43,7 @@ onMounted( async () => {
                     :stacks="getExperience.stacks"
                     :descriptionp1="getExperience.descriptionp1"
                     :descriptionp2="getExperience.descriptionp2"
-                    :imgsrc="getExperience.imgsrc"
+                    :imgsrc="path+getExperience.imgsrc"
                     />
                     <hr>
                 </div>
