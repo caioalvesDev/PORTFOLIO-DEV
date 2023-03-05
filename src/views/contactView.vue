@@ -3,7 +3,6 @@ import TheContainer from '../components/TheContainer.vue';
 import ThePrincipalCard from '../components/ThePrincipalCard.vue';
 import TheFormContact from '../components/TheFormContact.vue';
 
-
 </script>
 
 <template>
