@@ -5,13 +5,16 @@ import TheProject from './TheProject.vue'
 import axios from 'axios';
 
 const getProjects = ref([])
+const path = ref()
 
 onMounted( async () => {
 
     try {
         const response = await axios.get('https://my-json-server.typicode.com/caioalvesDev/backendPortfolio/projects');
         const data = await response.data
+        path.value  = 'https://github.com/caioalvesDev/Portfolio-dev/blob/6ad1ed39691c4db8aa4ccc7a98be79e49c686c63/src/assets/img/'
         getProjects.value = data
+        
 
     } catch (error) {
         console.error(error);
@@ -82,9 +85,11 @@ onMounted( async () => {
                                 <div class="card-content">
                                     <div class="content">
 
+                                        {{ path }}
+
                                         <div v-for="getProjectphp in getProjects.php">
                                             <TheProject
-                                            :name="getProjectphp.name"
+                                            :name="path+getProjectphp.name"
                                             :imgsrc="getProjectphp.imgsrc"
                                             :stacks="getProjectphp.stacks"
                                             :description="getProjectphp.description"
