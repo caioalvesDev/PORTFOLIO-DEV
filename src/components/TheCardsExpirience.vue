@@ -10,7 +10,7 @@ const getExperiences = ref([])
 onMounted( async () => {
 
     try {
-        const response = await axios.get('data/data_experiences.json');
+        const response = await axios.get('https://my-json-server.typicode.com/caioalvesDev/backendPortfolio/experiences');
         const data = await response.data
         getExperiences.value = data
 

@@ -9,7 +9,7 @@ const getProjects = ref([])
 onMounted( async () => {
 
     try {
-        const response = await axios.get('data/data_projects.json');
+        const response = await axios.get('https://my-json-server.typicode.com/caioalvesDev/backendPortfolio/projects');
         const data = await response.data
         getProjects.value = data
 

@@ -13,7 +13,7 @@ const getFormations = ref([])
 onMounted( async () => {
 
     try {
-        const response = await axios.get('data/data_formation.json');
+        const response = await axios.get('https://my-json-server.typicode.com/caioalvesDev/backendPortfolio/formation');
         const data = await response.data
 
         const newData = await data.map(val => {
