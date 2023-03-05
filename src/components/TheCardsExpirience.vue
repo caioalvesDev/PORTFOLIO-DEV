@@ -3,15 +3,20 @@
 
 import { ref, onMounted, computed } from 'vue'
 import TheCardExpirience from './TheCardExpirience.vue'
+import axios from 'axios';
 
 const getExperiences = ref([])
 
 onMounted( async () => {
 
-    const response = await fetch(`data/data_experiences.json`)
-    const data = await response.json()
+    try {
+        const response = await axios.get('data/data_experiences.json');
+        const data = await response.data
+        getExperiences.value = data
 
-    getExperiences.value = data
+    } catch (error) {
+        console.error(error);
+    }
 
 })
 

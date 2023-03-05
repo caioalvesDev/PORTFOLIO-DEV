@@ -20,7 +20,7 @@ const fullPage = ref(true)
 
 const loading = () => {
     const loader = $loading.show({
-      opacity: 0.7,
+      opacity: 0.9,
     });
     setTimeout(() => {
         loader.hide()

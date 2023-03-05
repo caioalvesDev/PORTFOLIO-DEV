@@ -1,6 +1,7 @@
 <script setup>
 import { ref, onMounted, computed } from 'vue'
 import TheCardFormation from './TheCardFormation.vue'
+import axios from 'axios';
 
 const getFormations = ref([])
 
@@ -11,25 +12,23 @@ const getFormations = ref([])
 
 onMounted( async () => {
 
-    // getPosts().then(data => {
-    //     console.log(data);
-    //     postsData.value = data
-    // })
+    try {
+        const response = await axios.get('data/data_formation.json');
+        const data = await response.data
 
-   
-    const response = await fetch(`data/data_formation.json`)
-    const data = await response.json()
+        const newData = await data.map(val => {
+            return {
+                ...val,
+                tagcolor: `tag is-${val.tagcolor} mb-2`
+            }
+        })
 
-    const newData = await data.map( val => {
-        return {
-            ...val,
-            tagcolor: `tag is-${val.tagcolor} mb-2`
-        }
-    })
+        getFormations.value = newData
+        console.log(data);
+    } catch (error) {
+        console.error(error);
+    }
 
-    getFormations.value = newData
-
-    
 })
 
 </script>

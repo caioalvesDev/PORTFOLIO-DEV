@@ -2,17 +2,20 @@
 
 import { ref, onMounted } from 'vue'
 import TheProject from './TheProject.vue'
+import axios from 'axios';
 
 const getProjects = ref([])
 
 onMounted( async () => {
 
-    const response = await fetch(`data/data_projects.json`)
-    const data = await response.json()
+    try {
+        const response = await axios.get('data/data_projects.json');
+        const data = await response.data
+        getProjects.value = data
 
-    console.log(data);
-
-    getProjects.value = data
+    } catch (error) {
+        console.error(error);
+    }
 
 })
 
