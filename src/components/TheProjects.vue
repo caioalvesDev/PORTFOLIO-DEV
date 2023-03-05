@@ -85,12 +85,10 @@ onMounted( async () => {
                                 <div class="card-content">
                                     <div class="content">
 
-                                        {{ path }}
-
                                         <div v-for="getProjectphp in getProjects.php">
                                             <TheProject
-                                            :name="path+getProjectphp.name"
-                                            :imgsrc="getProjectphp.imgsrc"
+                                            :name="getProjectphp.name"
+                                            :imgsrc="path+getProjectphp.imgsrc"
                                             :stacks="getProjectphp.stacks"
                                             :description="getProjectphp.description"
                                             :linkrepositorie="getProjectphp.linkrepositorie"
