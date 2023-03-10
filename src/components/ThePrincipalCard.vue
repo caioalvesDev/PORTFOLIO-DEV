@@ -47,7 +47,7 @@
                             <div class="card">
                                 <div class="card-content">
                                     <div class="content has-text-centered">
-                                        <a href="src\assets\file\Currículo-caio-alves.pdf" target="_blank"
+                                        <a href="https://github.com/caioalvesDev/PORTFOLIO-DEV/raw/main/src/assets/file/Curr%C3%ADculo-caio-alves.pdf" target="_blank"
                                             download="curriculo-caio"><span class="tag is-dark is-medium">
                                                 &lt; Baixar Curriculo /&gt;
                                             </span></a>
